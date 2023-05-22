@@ -1,0 +1,7 @@
+.localButton {
+  background-color: tomato;
+  padding: mod(50px, 51px);
+  @media (min-width: 768px) {
+    background-color: aqua;
+  }
+}

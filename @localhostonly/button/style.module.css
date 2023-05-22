@@ -1,0 +1,7 @@
+.root {
+  background-color: tomato;
+  padding: mod(50px, 51px);
+  @media (--medium-up) {
+    background-color: aqua;
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "turborepo-turbopack-postcss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "make-package": "node make-package.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "turbo": "^1.9.8"
+  },
+  "dependencies": {
+    "@csstools/postcss-global-data": "^1.0.3",
+    "@types/node": "^20.2.3",
+    "@types/react": "^18.2.6",
+    "@types/react-dom": "^18.2.4",
+    "postcss-preset-env": "^8.4.1"
+  }
+}
